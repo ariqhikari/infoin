@@ -45,7 +45,7 @@ cd vue-js
 - [vue-page-transition](https://orlandster.github.io/vue-page-transition/#/)
 - [vue-router](https://github.com/vuejs/vue-router#readme)
 - [vue-slick-carousel](https://gs-shop.github.io/vue-slick-carousel/#/)
-- [vue-toasted][https://github.com/shakee93/vue-toasted#readme)
+- [vue-toasted](https://github.com/shakee93/vue-toasted#readme)
 
 
 After that, run your apllication:
