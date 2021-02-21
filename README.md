@@ -1,4 +1,4 @@
-<p align="center"><a href="https://infoin.auroraweb.id" target="_blank"><img src="https://raw.githubusercontent.com/ariqhikari/infoin/tree/main/assets/logo.png" width="150"></a></p>
+<p align="center"><a href="https://infoin.auroraweb.id" target="_blank"><img src="https://raw.githubusercontent.com/ariqhikari/infoin/main/assets/logo.png" width="150"></a></p>
 
 ## About Info.In
 
@@ -9,7 +9,7 @@
 - Easy access.
 - Websites that have used [SPA](https://en.wikipedia.org/wiki/Single-page_application).
 
-<p align="center"><a href="https://infoin.auroraweb.id" target="_blank"><img src="https://raw.githubusercontent.com/ariqhikari/infoin/tree/main/assets/mockups.jpg"></a></p>
+<p align="center"><a href="https://infoin.auroraweb.id" target="_blank"><img src="https://raw.githubusercontent.com/ariqhikari/infoin/main/assets/mockups.jpg"></a></p>
 
 ## Table of contents
 
