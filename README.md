@@ -1,24 +1,28 @@
-<p align="center"><a href="https://infoin.auroraweb.id" target="_blank"><img src="https://raw.githubusercontent.com/ariqhikari/infoin/logo.png" width="400"></a></p>
+<p align="center"><a href="https://infoin.auroraweb.id" target="_blank"><img src="https://raw.githubusercontent.com/ariqhikari/infoin/tree/main/assets/logo.png" width="150"></a></p>
 
 ## About Info.In
 
-Info.In is the website for informs about COVID-19 and aims to provide social assistance to Indonesian people who need it. The advantages of this website are:
+**Info.In** is the website for informs about COVID-19 and aims to provide social assistance to Indonesian people who need it. The advantages of this website are:
 
 - Interactive [UI](https://en.wikipedia.org/wiki/User_interface).
 - Easy to use.
 - Easy access.
 - Websites that have used [SPA](https://en.wikipedia.org/wiki/Single-page_application).
 
-<p align="center"><a href="https://infoin.auroraweb.id" target="_blank"><img src="https://raw.githubusercontent.com/ariqhikari/infoin/logo.png"></a></p>
+<p align="center"><a href="https://infoin.auroraweb.id" target="_blank"><img src="https://raw.githubusercontent.com/ariqhikari/infoin/tree/main/assets/mockups.jpg"></a></p>
 
 ## Table of contents
 
 + [Demo](#demo)
-+ [Default Account for testing](#default-account-for-testing)
 + [Features](#features)
 + [Technology](#technology)
 + [Setup](#setup)
++ [Default Account for testing](#default-account-for-testing)
 + [License](#license)
+
+## Demo
+
+Checkout the Demo [here](https://infoin.auroraweb.id/).
 
 ## Features
 
@@ -33,9 +37,12 @@ Info.In is the website for informs about COVID-19 and aims to provide social ass
 - [Vue.js](https://vuejs.org/)
 - [Laravel](https://laravel.com/)
 
-## Demo
+## Setup
 
-Checkout the Demo [here](https://infoin.auroraweb.id/).
+To run this application, you must download these two projects:
+
+- [Documentation Info.In Vue.js](https://github.com/ariqhikari/infoin/tree/main/vue-js)
+- [Documentation Info.In Laravel](https://github.com/ariqhikari/infoin/tree/main/laravel)
 
 ## Default Account for testing
 	
@@ -50,13 +57,6 @@ Checkout the Demo [here](https://infoin.auroraweb.id/).
 **User Default Account**
 - Email : user@gmail.com
 - Password : user123456
-
-## Setup
-
-To run this application, you must download these two projects:
-
-- Info.In Vue JS
-- Info.In Laravel
 
 ## License
 
