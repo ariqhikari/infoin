@@ -1,8 +1,10 @@
 <?php
 
-use App\User;
+namespace Database\Seeders;
+
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
+use App\User;
 
 class UserSeeder extends Seeder
 {
