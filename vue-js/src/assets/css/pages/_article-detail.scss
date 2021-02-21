@@ -1,0 +1,140 @@
+.page-article-detail {
+    .heading-post {
+        h2 {
+            font-weight: 600;
+        }
+
+        img {
+            transition: 0.25s;
+
+            &:hover {
+                opacity: 0.8;
+            }
+        }
+    }
+
+    .share-post {
+        a {
+            color: $fontSecondary;
+        }
+    }
+
+    .post-wrap .card {
+        min-height: 300px;
+        transition: 0.25s;
+
+        @include media-breakpoint-up(md) {
+            height: 500px;
+        }
+    }
+
+    .post-wrap .card:hover {
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.16);
+    }
+
+    .post-wrap .card a img {
+        transition: 0.25s;
+    }
+
+    .post-wrap .card:hover a img {
+        opacity: 0.8;
+    }
+
+    .post-wrap .card a h5 {
+        color: #474747;
+        font-weight: 500;
+        font-size: 1.5em;
+    }
+
+    .post-wrap .card a h5:hover,
+    .post-wrap .card p a {
+        color: #686868;
+    }
+
+    .post-wrap .card p {
+        color: #818181;
+    }
+
+    .post-wrap .card p a {
+        color: #474747;
+        font-weight: 500;
+    }
+
+    /* Detail Post */
+    .jumbotron .author p a {
+        color: #FFFFFF;
+        font-weight: 500;
+    }
+
+    .share-comment p {
+        color: #474747;
+    }
+
+    .share-comment a {
+        color: #B2B2B2;
+        transition: 0.25s;
+
+        &:hover {
+            color: #818181;
+        }
+    }
+
+
+    .breadcrumb-detail-post {
+        color: #6C6E6E;
+        font-weight: 500;
+    }
+
+    .breadcrumb-detail-post a {
+        color: #6C6E6E;
+    }
+
+    .detail-post-content {
+        color: #6C6E6E;
+    }
+
+    /* Komentar & Related Post */
+
+    .related-post {
+        background-color: #F9F9F9;
+        min-height: 500px;
+    }
+
+    .komentar {
+        background-color: #F9F9F9;
+        margin-top: -30px;
+    }
+
+    .komentar .komentar-item {
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.16) !important;
+    }
+
+    .komentar .author-name p {
+        color: #333333;
+        font-size: 1.2em;
+    }
+
+    .komentar .author-name small {
+        color: #6C6E6E;
+        font-size: .95em;
+    }
+
+    .komentar a {
+        color: #6C6E6E;
+    }
+
+    .komentar .form-group input,
+    .komentar .form-group textarea {
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+
+        &:focus {
+            border-color: rgba(229, 229, 229, 1);
+        }
+    }
+
+    .komentar .form-group input::-webkit-input-placeholder,
+    .komentar .form-group textarea::-webkit-input-placeholder {
+        color: #C5C5C5;
+    }
+
+}

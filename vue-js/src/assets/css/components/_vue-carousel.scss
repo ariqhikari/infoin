@@ -1,0 +1,17 @@
+.vue-carousel {
+
+    .custom-arrow {
+        position: absolute;
+        z-index: 1;
+
+        &.slick-next {
+            right: 0;
+        }
+
+        &::before {
+            color: $btnPrimary;
+            font-size: 2.5rem;
+            line-height: normal;
+        }
+    }
+}

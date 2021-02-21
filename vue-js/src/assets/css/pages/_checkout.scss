@@ -1,0 +1,11 @@
+.page-checkout {
+    .checkout {
+        margin-top: 200px;
+
+        img {
+            @include media-breakpoint-up(md) {
+                width: 70%;
+            }
+        }
+    }
+}

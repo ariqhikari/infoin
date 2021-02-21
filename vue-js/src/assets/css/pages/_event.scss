@@ -1,0 +1,107 @@
+.page-event {
+    background-color: #F6F6F6;
+
+    .cari-event {
+        .card {
+            position: relative;
+            border-radius: 30px;
+            border-color: transparent;
+            box-shadow: 0px 16px 40px rgba(0, 0, 0, 0.07);
+            transition: .25s;
+
+            &.active {
+                border-bottom-left-radius: 0;
+                border-bottom-right-radius: 0;
+            }
+
+            h5 {
+                color: $fontPrimary;
+                font-weight: 600;
+            }
+
+            .form-control {
+                color: 707070;
+                box-shadow: none;
+            }
+
+            a {
+                .row {
+                    transition: 0.25s;
+
+                    &:hover,
+                    &:focus {
+                        opacity: .7;
+                    }
+
+                    span {
+                        color: $fontSecondary;
+                    }
+                }
+            }
+
+            .event-title {
+                span {
+                    font-size: 1em;
+
+                    &.belum-dimulai {
+                        color: $btnPrimary;
+                        background: rgba(253, 143, 112, 0.1);
+                    }
+
+                    &.dimulai {
+                        color: #63E196;
+                        background: rgba(145, 255, 106, 0.1);
+                    }
+
+                    &.selesai {
+                        color: #32B8C0;
+                        background: rgba(0, 194, 255, 0.1);
+                    }
+                }
+            }
+        }
+    }
+
+    .list-events {
+        .event-item {
+            border-radius: 20px;
+
+            .event-title {
+                span {
+                    font-size: 1em;
+
+                    &.belum-dimulai {
+                        color: $btnPrimary;
+                        background: rgba(253, 143, 112, 0.1);
+                    }
+
+                    &.dimulai {
+                        color: #63E196;
+                        background: rgba(145, 255, 106, 0.1);
+                    }
+
+                    &.selesai {
+                        color: #32B8C0;
+                        background: rgba(0, 194, 255, 0.1);
+                    }
+                }
+            }
+
+            .event-location {
+                color: #838383;
+                background: #F1F1F1;
+                transition: .25s;
+
+                &:hover {
+                    opacity: .75;
+                }
+
+                span {
+                    color: #444444;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+
+}

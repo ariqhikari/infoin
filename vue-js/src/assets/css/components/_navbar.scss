@@ -1,0 +1,47 @@
+nav {
+    font-family: $montserrat;
+    font-weight: 600;
+    color: black;
+
+    .nav-item {
+        &:last-child {
+            @include media-breakpoint-up(lg) {
+                margin-top: -5px;
+            }
+        }
+    }
+
+    .ml-auto {
+        .router-link-exact-active {
+            color: black !important;
+
+            &::after {
+                content: "";
+                display: block;
+                width: 30px;
+                height: 2px;
+                border-radius: 10px;
+                background: #000;
+            }
+        }
+    }
+
+    .nav-link {
+        font-size: 18px;
+        margin: 0 10px;
+    }
+
+    .dropdown-menu {
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+        border: none;
+
+        .dropdown-item {
+            &:focus {
+                background-color: #f8f9fa;
+                color: black;
+                opacity: .7;
+            }
+        }
+    }
+
+}

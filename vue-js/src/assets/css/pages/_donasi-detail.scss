@@ -1,0 +1,117 @@
+.page-donasi-detail {
+    background-color: #F6F6F6;
+
+    .card {
+        border-radius: 15px;
+
+        .card-img-top {
+            border-radius: 15px;
+        }
+
+        .main-donasi {
+            .tag-donasi {
+                a {
+                    border: 1px solid #D2D2D2;
+                    padding: 5px 10px;
+                    color: $fontPrimary;
+                    transition: 0.25s;
+
+                    &:hover {
+                        opacity: 0.7;
+                    }
+                }
+            }
+
+            .time-donasi {
+                span {
+                    color: $fontSecondary;
+                }
+            }
+
+            .progress {
+                height: 7px;
+                background: rgba(236, 236, 236, 0.78);
+
+                .progress-bar {
+                    background-color: $btnPrimary;
+                }
+            }
+
+            h5 {
+                font-weight: 600;
+                font-size: 2em;
+            }
+
+            span {
+                opacity: 0.8;
+            }
+        }
+
+        .media-donasi {
+            h4 {
+                font-weight: 500;
+            }
+
+            small {
+                font-weight: 300;
+                color: $fontPrimary;
+            }
+        }
+
+        .thumb-eo {
+            transition: 0.25s;
+
+            &:hover {
+                opacity: 0.8;
+            }
+        }
+
+        .input-group {
+            border: 2px solid #EDF4F8;
+            border-radius: 15px;
+
+            .form-control {
+                color: 707070;
+                box-shadow: none;
+            }
+        }
+
+        .text-right {
+            color: $fontPrimary;
+        }
+
+        .btn-main {
+            position: absolute;
+            bottom: -4%;
+            left: 0;
+            font-weight: 500;
+
+            border-top-left-radius: 0;
+            border-top-right-radius: 0;
+
+            border-bottom-left-radius: 15px;
+            border-bottom-right-radius: 15px;
+
+            &.continue-donation {
+                left: inherit;
+                right: 0;
+                border-bottom-left-radius: 0;
+            }
+        }
+
+        .btn-secondary {
+            line-height: 1;
+            position: absolute;
+            bottom: -4%;
+            left: 0;
+            font-weight: 500;
+
+            border-top-left-radius: 0;
+            border-top-right-radius: 0;
+
+            border-bottom-left-radius: 15px;
+            border-bottom-right-radius: 0;
+        }
+    }
+
+}

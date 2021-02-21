@@ -1,0 +1,182 @@
+.page-donasi {
+    background-color: #F6F6F6;
+
+    .jumbotron {
+        .card {
+            position: relative;
+            border-radius: 30px;
+            border-color: transparent;
+            box-shadow: 0px 16px 40px rgba(0, 0, 0, 0.07);
+
+            @include media-breakpoint-up(lg) {
+                top: -10%;
+            }
+
+            h5 {
+                color: $fontPrimary;
+                font-weight: 600;
+            }
+
+            .input-group {
+                border: 2px solid #EDF4F8;
+                border-radius: 25px;
+
+                .form-control {
+                    color: 707070;
+                    box-shadow: none;
+                }
+            }
+        }
+    }
+
+    .carousel-donasi {
+        .card-donation {
+            position: relative;
+            border: none;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 30px;
+            color: white;
+            min-height: 300px;
+
+            @include media-breakpoint-up(md) {
+                height: 500px;
+            }
+
+            @include media-breakpoint-up(lg) {
+                height: 400px;
+            }
+
+            &::after {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                display: block;
+                border-radius: 30px;
+                width: 100%;
+                height: 100%;
+                background: rgba(0, 0, 0, 0.6);
+            }
+
+            .tag-donasi {
+                a {
+                    border: 1px solid #D2D2D2;
+                    padding: 5px 10px;
+                    color: white;
+                    transition: 0.25s;
+
+                    &:hover {
+                        opacity: 0.7;
+                    }
+                }
+            }
+
+            .time-donasi {
+                span {
+                    color: white;
+                }
+            }
+
+            .card-body {
+                position: relative;
+                z-index: 1;
+
+                .progress {
+                    height: 7px;
+                    background: rgba(236, 236, 236, 0.78);
+
+                    .progress-bar {
+                        background-color: $btnPrimary;
+                    }
+                }
+
+                h5 {
+                    font-weight: 700;
+                    font-size: 2em;
+                    color: white;
+                }
+
+                span {
+                    opacity: 0.8;
+                }
+
+                p {
+                    color: white;
+                }
+
+                hr {
+                    border-color: white;
+                    opacity: .5;
+                }
+            }
+        }
+
+        .card-skeleton {
+            border: none;
+            border-radius: 30px;
+        }
+    }
+
+    .donations {
+        .card {
+            border-radius: 15px;
+            min-height: 300px;
+
+            &.donasi-item {
+                @include media-breakpoint-up(md) {
+                    height: 720px;
+                }
+            }
+
+            .card-img-top {
+                border-radius: 15px;
+                transition: 0.25s;
+
+                &:hover {
+                    opacity: 0.8;
+                }
+            }
+
+            .tag-donasi {
+                a {
+                    border: 1px solid #D2D2D2;
+                    padding: 5px 10px;
+                    color: $fontPrimary;
+                    transition: 0.25s;
+
+                    &:hover {
+                        opacity: 0.7;
+                    }
+                }
+            }
+
+            .time-donasi {
+                span {
+                    color: $fontSecondary;
+                }
+            }
+
+            .progress {
+                height: 7px;
+                background: rgba(236, 236, 236, 0.78);
+
+                .progress-bar {
+                    background-color: $btnPrimary;
+                }
+            }
+
+            h5 {
+                font-weight: 600;
+                font-size: 1.5em;
+
+                &:hover {
+                    color: #686868;
+                }
+            }
+
+            span {
+                opacity: 0.8;
+            }
+        }
+    }
+}

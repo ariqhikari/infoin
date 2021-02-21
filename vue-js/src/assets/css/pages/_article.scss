@@ -1,0 +1,254 @@
+.page-article {
+    .jumbotron {
+        .article-corona {
+            @include media-breakpoint-up(md) {
+                background-image: url(/assets/icons/virus1.svg),
+                    url(/assets/icons/virus2.svg);
+                background-position: right top,
+                    left bottom;
+                background-repeat: no-repeat,
+                    no-repeat;
+            }
+        }
+
+        h1 {
+            font-size: 3em;
+            font-weight: 500;
+            text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+        }
+
+        .input-search {
+            width: 100%;
+            color: $fontSecondary;
+            padding: 10px 20px;
+            background: rgb(241, 241, 241);
+            border: 10px solid white;
+            border-radius: 50px;
+            transition: .25s;
+
+            &.active {
+                border-bottom-left-radius: 0;
+                border-bottom-right-radius: 0;
+            }
+
+            @include media-breakpoint-up(md) {
+                width: 75%;
+            }
+
+            input,
+            button {
+                box-shadow: none;
+            }
+        }
+
+        .card-search {
+            width: 100%;
+            transition: .25s;
+
+            @include media-breakpoint-up(md) {
+                width: 75%;
+            }
+
+            a {
+                .row {
+                    transition: 0.25s;
+
+                    &:hover,
+                    &:focus {
+                        opacity: .7;
+                    }
+
+                    span {
+                        color: $fontSecondary;
+                    }
+                }
+            }
+        }
+    }
+
+    .recent-posts {
+
+        .card {
+            border: 5px solid white;
+            border-radius: 20px;
+
+            .thumbnail-post {
+                img {
+                    min-height: 300px;
+                    border-radius: 20px;
+                    transition: 0.25s;
+
+                    &:hover {
+                        opacity: 0.8;
+                    }
+
+                    @include media-breakpoint-up(md) {
+                        height: 370px;
+                    }
+
+                    @include media-breakpoint-up(lg) {
+                        height: 300px;
+                    }
+                }
+            }
+
+            .card-body {
+                height: 100%;
+
+                .badge-main {
+                    @include badge-variant($btnPrimary);
+                    transition: 0.25s;
+
+                    &:hover {
+                        background-color: $btnPrimaryTrans;
+                    }
+                }
+
+                .card-title {
+                    font-family: $poppins;
+                    font-weight: 500;
+                    color: $fontPrimary;
+                    transition: 0.25s;
+
+                    &:hover {
+                        opacity: 0.8;
+                    }
+                }
+
+                .media {
+                    .media-header {
+                        transition: 0.25s;
+
+                        &:hover {
+                            opacity: 0.8;
+                        }
+
+                        img {
+                            width: 54px;
+                        }
+                    }
+
+                    .media-body {
+                        a {
+                            text-decoration-color: $fontPrimary;
+
+                            h5 {
+                                font-size: 1em;
+                                color: $fontPrimary;
+                            }
+                        }
+
+                        span {
+                            font-size: 0.9em;
+                            color: $fontSecondary;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .old-post {
+        min-height: 500px;
+
+        .post-wrap .card {
+            min-height: 300px;
+            transition: 0.25s;
+
+            @include media-breakpoint-up(md) {
+                height: 500px;
+            }
+        }
+
+        .post-wrap .card:hover {
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.16);
+        }
+
+        .post-wrap .card a img {
+            transition: 0.25s;
+        }
+
+        .post-wrap .card:hover a img {
+            opacity: 0.8;
+        }
+
+        .post-wrap .card a h5 {
+            color: #474747;
+            font-weight: 500;
+            font-size: 1.5em;
+        }
+
+        .post-wrap .card a h5:hover,
+        .post-wrap .card p a {
+            color: #686868;
+        }
+
+        .post-wrap .card p {
+            color: #818181;
+        }
+
+        .post-wrap .card p a {
+            color: #474747;
+            font-weight: 500;
+        }
+
+    }
+
+    .donations {
+        .card {
+            border-radius: 15px;
+
+            .card-img-top {
+                border-radius: 15px;
+                transition: 0.25s;
+
+                &:hover {
+                    opacity: 0.8;
+                }
+            }
+
+            .main-donasi {
+                .tag-donasi {
+                    a {
+                        border: 1px solid #D2D2D2;
+                        padding: 5px 10px;
+                        color: $fontPrimary;
+                        transition: 0.25s;
+
+                        &:hover {
+                            opacity: 0.7;
+                        }
+                    }
+                }
+
+                .time-donasi {
+                    span {
+                        color: $fontSecondary;
+                    }
+                }
+
+                .progress {
+                    height: 7px;
+                    background: rgba(236, 236, 236, 0.78);
+
+                    .progress-bar {
+                        background-color: $btnPrimary;
+                    }
+                }
+
+                h5 {
+                    font-weight: 600;
+                    font-size: 1.5em;
+
+                    &:hover {
+                        color: #686868;
+                    }
+                }
+
+                span {
+                    opacity: 0.8;
+                }
+            }
+        }
+    }
+}

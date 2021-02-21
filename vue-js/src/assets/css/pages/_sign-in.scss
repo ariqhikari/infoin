@@ -1,0 +1,56 @@
+.page-login {
+    color: $fontSecondary;
+
+    .illustration {
+        background-color: $colorPrimary;
+    }
+
+    h2 {
+        color: black;
+        font-family: $montserrat;
+        font-weight: bold;
+    }
+
+    form {
+        .form-control {
+            height: 50px;
+            border: 3px solid #E5E5E5;
+            border-radius: 15px;
+            background-color: #F3F3F4;
+
+            &:focus {
+                box-shadow: 0 0 0 0.2rem rgba(229, 229, 229, 0.5);
+                ;
+            }
+
+            /*support google chrome*/
+            &::-webkit-input-placeholder {
+                color: $fontSecondary;
+            }
+
+            /*support mozilla*/
+            &:-moz-input-placeholder {
+                color: $fontSecondary;
+            }
+
+            /*support internet explorer*/
+            &:-ms-input-placeholder {
+                color: $fontSecondary;
+            }
+        }
+    }
+
+    .forgot-password {
+        a {
+            color: $fontSecondary;
+        }
+
+        p {
+            color: #707070;
+
+            a {
+                color: #FD815D;
+            }
+        }
+    }
+}

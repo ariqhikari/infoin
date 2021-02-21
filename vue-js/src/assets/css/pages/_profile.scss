@@ -1,0 +1,206 @@
+.page-profile {
+    nav {
+        font-family: $montserrat;
+        font-weight: 600;
+
+        .nav-item {
+            color: white;
+
+            .nav-link {
+                color: rgba(255, 255, 255, 0.7) !important;
+
+                &:hover,
+                &:focus {
+                    color: white !important;
+                }
+            }
+
+            &:last-child {
+                @include media-breakpoint-up(lg) {
+                    margin-top: -5px;
+                }
+            }
+        }
+
+        .ml-auto {
+            .router-link-exact-active {
+                color: white !important;
+
+                &::after {
+                    content: "";
+                    display: block;
+                    width: 30px;
+                    height: 2px;
+                    border-radius: 10px;
+                    background: white;
+                }
+            }
+        }
+
+    }
+
+    .nav-link {
+        color: rgba(0, 0, 0, 0.5);
+    }
+
+    .tab-active {
+        &.nav-link {
+            color: white !important;
+            font-weight: 600;
+
+            &.active {
+                background-color: $btnPrimary;
+            }
+        }
+    }
+
+    .post-wrap .card {
+        min-height: 300px;
+        transition: 0.25s;
+
+        @include media-breakpoint-up(md) {
+            height: 500px;
+        }
+
+        @include media-breakpoint-up(lg) {
+            height: 450px;
+        }
+    }
+
+    .post-wrap .card:hover {
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.16);
+    }
+
+    .post-wrap .card a img {
+        transition: 0.25s;
+    }
+
+    .post-wrap .card:hover a img {
+        opacity: 0.8;
+    }
+
+    .post-wrap .card a h5 {
+        color: #474747;
+        font-weight: 500;
+        font-size: 1.5em;
+    }
+
+    .post-wrap .card a h5:hover,
+    .post-wrap .card p a {
+        color: #686868;
+    }
+
+    .post-wrap .card p {
+        color: #818181;
+    }
+
+    .post-wrap .card p a {
+        color: #474747;
+        font-weight: 500;
+    }
+
+    .donations {
+        .card {
+            border-radius: 15px;
+            min-height: 300px;
+
+            .card-img-top {
+                border-radius: 15px;
+                transition: 0.25s;
+
+                &:hover {
+                    opacity: 0.8;
+                }
+            }
+
+            .tag-donasi {
+                a {
+                    border: 1px solid #D2D2D2;
+                    padding: 5px 10px;
+                    color: $fontPrimary;
+                    transition: 0.25s;
+
+                    &:hover {
+                        opacity: 0.7;
+                    }
+                }
+            }
+
+            .time-donasi {
+                span {
+                    color: $fontSecondary;
+                }
+            }
+
+            .progress {
+                height: 7px;
+                background: rgba(236, 236, 236, 0.78);
+
+                .progress-bar {
+                    background-color: $btnPrimary;
+                }
+            }
+
+            h5 {
+                font-weight: 600;
+                font-size: 1.5em;
+
+                &:hover {
+                    color: #686868;
+                }
+            }
+
+            span {
+                opacity: 0.8;
+            }
+        }
+
+        .donasi-thumb {
+            @include media-breakpoint-up(md) {
+                height: 500px;
+            }
+        }
+    }
+
+    .list-events {
+        .event-item {
+            border-radius: 20px;
+
+            .event-title {
+                span {
+                    font-size: 1em;
+
+                    &.belum-dimulai {
+                        color: $btnPrimary;
+                        background: rgba(253, 143, 112, 0.1);
+                    }
+
+                    &.dimulai {
+                        color: #63E196;
+                        background: rgba(145, 255, 106, 0.1);
+                    }
+
+                    &.selesai {
+                        color: #32B8C0;
+                        background: rgba(0, 194, 255, 0.1);
+                    }
+                }
+            }
+
+            .event-location {
+                color: #838383;
+                background: #F1F1F1;
+                transition: .25s;
+
+                &:hover {
+                    opacity: .75;
+                }
+
+                span {
+                    color: #444444;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}
