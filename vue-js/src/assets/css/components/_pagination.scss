@@ -1,0 +1,19 @@
+.pagination {
+    .page-item {
+        .page-link {
+            color: rgba(0, 0, 0, .50);
+
+            &:focus {
+                box-shadow: 0 0 0 0.2rem rgba(229, 229, 229, 0.5);
+                ;
+            }
+        }
+
+
+        &.active .page-link {
+            color: white;
+            background-color: $btnPrimary;
+            border-color: $btnPrimary;
+        }
+    }
+}

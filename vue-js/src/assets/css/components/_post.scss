@@ -1,0 +1,54 @@
+  .post {
+      position: relative;
+      border-radius: 15px;
+      background-size: cover;
+      background-repeat: no-repeat;
+
+      @include media-breakpoint-up(lg) {
+          height: 350px;
+      }
+
+      .card {
+          @include media-breakpoint-up(md) {
+              position: absolute;
+              top: 80%;
+              left: 5%;
+              width: 90%;
+          }
+
+          .card-title {
+              font-size: 1.8em;
+              font-weight: bold;
+          }
+
+          .media {
+              .media-header {
+                  transition: 0.25s;
+
+                  &:hover {
+                      opacity: 0.8;
+                  }
+
+                  img {
+                      width: 54px;
+                  }
+              }
+
+              .media-body {
+                  a {
+                      text-decoration-color: $fontPrimary;
+
+                      h5 {
+                          font-size: 1em;
+                          color: $fontPrimary;
+                      }
+                  }
+
+                  span {
+                      font-size: 0.9em;
+                      color: $fontSecondary;
+                  }
+              }
+          }
+      }
+  }

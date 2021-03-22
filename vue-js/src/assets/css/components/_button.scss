@@ -1,0 +1,17 @@
+.btn-main {
+    @include button-variant($btnPrimary, $btnPrimary);
+    color: white;
+    font-weight: bold;
+    line-height: 1;
+    transition: 0.25s;
+}
+
+.btn-primary {
+    @include button-variant(#4285F4, #4285F4);
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+.btn-secondary {
+    @include button-variant($colorSecondary, $colorSecondary);
+}

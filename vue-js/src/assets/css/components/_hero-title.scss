@@ -1,0 +1,16 @@
+.hero-title {
+    display: flex;
+
+    span {
+        display: block;
+        width: 50px;
+        height: 15px;
+        margin: 10px 10px 0 0;
+        background-color: $btnPrimary;
+    }
+
+    h3 {
+        font-family: $poppins;
+        font-weight: 500;
+    }
+}

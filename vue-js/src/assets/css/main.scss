@@ -1,0 +1,27 @@
+// Import Bootstrap 4 Library
+@import "../vendor/bootstrap/scss/bootstrap.scss";
+
+@import "fonts";
+@import "colors";
+@import "global";
+
+@import "pages/home";
+@import "pages/about";
+@import "pages/guide-life";
+@import "pages/article";
+@import "pages/article-detail";
+@import "pages/profile";
+@import "pages/donasi";
+@import "pages/donasi-detail";
+@import "pages/event";
+@import "pages/event-detail";
+@import "pages/checkout";
+@import "pages/sign-in";
+
+@import "components/navbar";
+@import "components/hero-title";
+@import "components/vue-carousel";
+@import "components/post";
+@import "components/button";
+@import "components/footer";
+@import "components/pagination";

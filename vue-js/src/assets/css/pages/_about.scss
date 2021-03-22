@@ -1,0 +1,129 @@
+.page-about {
+    header {
+        position: relative;
+        z-index: -1;
+        top: -80px;
+
+        img {
+            width: 100%;
+            min-height: 300px;
+        }
+    }
+
+    .box-about-us {
+        width: 120px;
+        height: 40px;
+        border-radius: 40px;
+        margin: auto;
+        background-color: $btnPrimary;
+    }
+
+    .box-about-us h6 {
+        text-align: center;
+        line-height: 40px;
+        color: #ffffff;
+    }
+
+    .come-found-us {
+        margin-top: 110px;
+    }
+
+    .come-found-us p {
+        color: #444444;
+    }
+
+    .come-found-us h4 {
+        color: $btnPrimary;
+        margin-top: -20px;
+    }
+
+    .come-found-us h5 {
+        color: $btnPrimary;
+        margin-top: -15px;
+    }
+
+    .title-about {
+        margin-top: 27px;
+        color: #444444;
+    }
+
+    .parag-about {
+        font-family: "Montserrat", sans-serif;
+        color: #7A7A7A;
+        letter-spacing: 1px;
+    }
+
+    #member h5 {
+        color: #444444;
+        margin-top: 10px;
+    }
+
+    #member p {
+        font-family: "Montserrat", sans-serif;
+        color: #7A7A7A;
+        letter-spacing: 1px;
+    }
+
+    #member a {
+        text-decoration: none;
+    }
+
+    #member a h6 {
+        color: $btnPrimary;
+        margin-top: -10px;
+    }
+
+    #school h5 {
+        color: #444444;
+        margin-top: 10px;
+    }
+
+    #school h5 span {
+        color: $btnPrimary;
+    }
+
+    #school a {
+        text-decoration: none;
+    }
+
+    #school a h6 {
+        color: $btnPrimary;
+        margin-top: -5px;
+    }
+
+    #school p {
+        font-family: "Montserrat", sans-serif;
+        color: #7A7A7A;
+        letter-spacing: 1px;
+    }
+
+    @media only screen and (max-width: 800px) {
+        .header {
+            height: 340px;
+        }
+
+        .box-about-us {
+            width: 100px;
+            height: 40px;
+            margin-top: -44px;
+        }
+
+        .come-found-us {
+            margin-top: 50px;
+        }
+
+        #member h5,
+        #member p,
+        #member a {
+            text-align: center;
+        }
+
+        #member img {
+            margin-bottom: 20px;
+        }
+
+        #img-school {
+            width: 80%;
+        }
+    }
+}

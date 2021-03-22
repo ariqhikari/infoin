@@ -1,0 +1,12 @@
+<div>
+    <form wire:submit.prevent="update">
+        <div class="form-group">
+            <label class="section-title mt-0">Ubah kategori</label>
+            <input id="my-input" class="form-control @error("name") is-invalid @enderror" type="text" placeholder="nama" name="name" wire:model="name">
+            @error('name')
+                <div class="invalid-feedback">{{ $message }}</div>
+            @enderror
+        </div>
+        <button type="submit" class="btn btn-primary btn-block" style="margin-top:-10px"><i class="fas fa-pen-alt"></i> Ubah kategori</button>
+    </form>
+</div>
