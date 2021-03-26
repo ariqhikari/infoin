@@ -25,7 +25,7 @@ cd laravel
 
 Install composer packages:
 ```shell
-composer update
+composer install
 ```
 
 After that, run all migrations and seed the database:

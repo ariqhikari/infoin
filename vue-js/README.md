@@ -22,24 +22,10 @@ Create vue project:
 vue create project_name
 ```
 
-Then, you need to install these dependencies.
-
-#### Dependencies
-
-- [aos](https://michalsnik.github.io/aos/)
-- [axios](https://github.com/axios/axios)
-- [bootstrap-vue](https://bootstrap-vue.org/)
-- [laravel-vue-pagination](https://github.com/gilbitron/laravel-vue-pagination)
-- [moment](https://momentjs.com/)
-- [vue-countdown](https://fengyuanchen.github.io/vue-countdown/)
-- [vue-head](https://github.com/ktquez/vue-head#readme)
-- [vue-lazyload](https://github.com/hilongjw/vue-lazyload#readme)
-- [vue-lottie](https://github.com/chenqingspring/vue-lottie#readme)
-- [vue-number-animation](https://github.com/nkoik/vue-animated-number)
-- [vue-page-transition](https://orlandster.github.io/vue-page-transition/#/)
-- [vue-router](https://github.com/vuejs/vue-router#readme)
-- [vue-slick-carousel](https://gs-shop.github.io/vue-slick-carousel/#/)
-- [vue-toasted](https://github.com/shakee93/vue-toasted#readme)
+Install dependencies:
+```shell
+npm install
+```
 
 Replace, your project with this.
 
