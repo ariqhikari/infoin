@@ -22,16 +22,16 @@ Create vue project:
 vue create project_name
 ```
 
-Install dependencies:
-```shell
-npm install
-```
-
 Replace, your project with this.
 
 Clone the repo:
 ```shell
 git clone https://github.com/ariqhikari/infoin.git
+```
+
+Install dependencies:
+```shell
+npm install
 ```
 
 After that, run your application:
